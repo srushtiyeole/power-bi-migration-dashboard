@@ -1,0 +1,17 @@
+Type,Name,Before,After,Before_Source,Before_Conn,After_Source,After_Conn,Notes,File_Name,Connection_Type,Server,Database_Name,Connection_String,M_Query_Preview
+Table,All Suspended,DirectQuery,DirectQuery,Databricks,Databricks.Contents,Microsoft Fabric,Lakehouse.Contents,Partition source migration,tables/All Suspended.tmdl,Lakehouse.Contents,dummy_server_url.pbidedicated.windows.net,dummy_fabric_lakehouse,https://api.fabric.microsoft.com,"let
+    Source = Lakehouse.Contents(""https://api.fabric.microsoft.com"", [WorkspaceId=""dummy_id"", LakehouseId=""dummy_id""])
+in
+    Source"
+Table,All_Running,DirectQuery,DirectQuery,Databricks,Databricks.Contents,Microsoft Fabric,Lakehouse.Contents,Partition source migration,tables/All_Running.tmdl,Lakehouse.Contents,dummy_server_url.pbidedicated.windows.net,dummy_fabric_lakehouse,https://api.fabric.microsoft.com,"let
+    Source = Lakehouse.Contents(""https://api.fabric.microsoft.com"", [WorkspaceId=""dummy_id"", LakehouseId=""dummy_id""])
+in
+    Source"
+Table,OpenSessions,DirectQuery,DirectQuery,Databricks,Databricks.Contents,Microsoft Fabric,Lakehouse.Contents,Partition source migration,tables/OpenSessions.tmdl,Lakehouse.Contents,dummy_server_url.pbidedicated.windows.net,dummy_fabric_lakehouse,https://api.fabric.microsoft.com,"let
+    Source = Lakehouse.Contents(""https://api.fabric.microsoft.com"", [WorkspaceId=""dummy_id"", LakehouseId=""dummy_id""])
+in
+    Source"
+Table,request_steps,DirectQuery,DirectQuery,Databricks,Databricks.Contents,Microsoft Fabric,Lakehouse.Contents,Partition source migration,tables/request_steps.tmdl,Lakehouse.Contents,dummy_server_url.pbidedicated.windows.net,dummy_fabric_lakehouse,https://api.fabric.microsoft.com,"let
+    Source = Lakehouse.Contents(""https://api.fabric.microsoft.com"", [WorkspaceId=""dummy_id"", LakehouseId=""dummy_id""])
+in
+    Source"
