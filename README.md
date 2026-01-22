@@ -3,7 +3,7 @@
 This project automates the migration of Power BI (.pbip) files.
 
 ## 📊 Dashboard Preview
-![Dashboard Preview](dashboard.png)
+![Dashboard Preview](dashboard_1.png)
 
 ## 🚀 Tasks Completed
 - **Task 1:** Find and replace server and database name in PBIP files.
